@@ -66,7 +66,7 @@ function App() {
           }
         });
         const jsonResponse = await response.json();
-        console.log(jsonResponse)
+        console.log(jsonResponse);
         dispatch({
           type: "SEARCH_RELEASES_SUCCESS",
           payload: jsonResponse["releases"]
