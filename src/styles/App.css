@@ -2,8 +2,26 @@
   text-align: center;
 }
 
+.releases {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 .release {
-  display: block;
+  flex: 25%;
+  text-align: center;
   border: 1px solid black;
   margin: 10px 5px;
+  max-width: 500px;
+}
+
+.image {
+  max-width: 350px;
+  padding: 10px;
+}
+
+.search-bar {
+  margin-right: 10px;
 }
